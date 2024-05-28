@@ -1,11 +1,10 @@
 {
   "name": "Python 3",
   "dockerFile": "Dockerfile",
+  "forwardPorts": [],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "vscode",
   "customizations": {
-    "vscode": { "extensions": ["ms-python.python", "ms-toolsai.jupyter"] },
-    "extensions": [],
-    "forwardPorts": [],
-    "postCreateCommand": "pip install -r requirements.txt",
-    "remoteUser": "vscode"
+    "vscode": { "extensions": ["ms-python.python"] }
   }
 }
