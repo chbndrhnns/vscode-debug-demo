@@ -5,6 +5,15 @@ This repository contains a simple Python project for demonstrating the debugging
 ## Getting Started
 
 You can open this repository in GitHub Codespaces to start exploring the debugging features.
+This requires a free GitHub account.
+
+If you want to run the project on your local machine:
+
+- clone it
+- create a virtual environment (`python -m venv .venv`)
+- activate the virtual environment (e.g. `source .venv/bin/activate`)
+- install the dependencies (`pip install -r requirements.txt`)
+- (opt.) run the webserver: `python -m src.app`
 
 ### Running the Project
 
