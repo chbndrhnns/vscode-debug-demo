@@ -6,12 +6,12 @@ This repository contains a simple Python project for demonstrating the debugging
 
 There are at least three ways to get started:
 
-### Run everything in the cloud using GitHub Codespaces
+### 1. Run example in the cloud using GitHub Codespaces
 
 You can open this repository in GitHub Codespaces to start exploring the debugging features.
 This requires a free GitHub account.
 
-### Run example locally
+### 2. Run example locally
 
 If you want to run the project on your local machine:
 
@@ -21,7 +21,7 @@ If you want to run the project on your local machine:
 - install the dependencies (`pip install -r requirements.txt`)
 - (opt.) run the webserver: `python -m src.app`
 
-### Run single file locally
+### 3. Run single file locally
 
 If you prefer to not have the webserver overhead, copy `src/core.py` into your editor and get started
 from there.
