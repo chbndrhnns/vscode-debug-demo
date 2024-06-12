@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request
 
-from src.core import add, divide, process_complex_logic
+from src.core import add, divide, add_if_even_index_subtract_if_odd_position
 
 main = Blueprint('main', __name__)
 
@@ -24,7 +24,7 @@ def divide_endpoint(a, b):
 def complex_logic_endpoint():
     data = request.args.get('data')
     try:
-        result = process_complex_logic(data)
+        result = add_if_even_index_subtract_if_odd_position(data)
         return f"Result: {result}"
     except ValueError as e:
         return f"An error occurred: {str(e)}"
