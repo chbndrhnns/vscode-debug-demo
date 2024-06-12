@@ -2,5 +2,10 @@
 	"github.codespaces.defaultExtensions": [
 		"ms-python.python",
 		"ms-python.debugpy",
-	]
+	],
+	"python.testing.pytestArgs": [
+		"src"
+	],
+	"python.testing.unittestEnabled": false,
+	"python.testing.pytestEnabled": true
 }
